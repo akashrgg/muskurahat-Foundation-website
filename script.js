@@ -98,7 +98,7 @@
 
 
 
-                     window.location.href = 'https://github.com/akashrgg/muskurahat-Foundation-website/Application.html'; 
+                     window.location.href = 'Application.html'; 
 
                      
 
