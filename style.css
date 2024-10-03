@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imr{
+    margin-right:30px;
+}
+.h1{
+    height: 50vh;
+    
+}
+.red{
+    color: red;
+}
+.blu{
+    color: blue;
+}
+.martop{
+   
+    padding-top: 5vh;
+}
+.martop2{
+    padding-top: 10vh;
+}
+.orange{
+    color: rgb(185, 23, 150);
+    
+}
+.pdt{
+    padding-top: 20px;
+}
+.m{
+    width: 10px;
+}
+
+ /* Custom style for the active button */
+ .active-btn {
+    background-color: green;
+    color: white;
+    border-color: darkgreen;
+}
+.other-active-btn {
+    background-color: orange;
+    color: white;
+    border-color: darkorange;
+}
+.progress {
+    height: 40px;
+    
+}
+.h{
+    height:120vh;
+}
+
+.bg{
+    background-image: url(design.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.pa{
+    padding-top: 10vh;
+}
+.hw{
+    height: 50vh;
+}
+.m1{
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.hr{
+    height: 30vh;
+}
+.hi{
+    height: 20vh;
+    border-radius: 20px;
+}
+.mart{
+    margin-top: 10vh;
+}
+
+.sp{
+   width: 350px;
+   border-radius: 20px;
+   background-color: white;
+}
+.spp{
+    width: 100px;
+    border-radius: 20px; 
+    background-color: red; 
+}
+.brownbg{
+background-color: rgba(146, 117, 117, 0.692);
+}
+.padingtop{
+    padding-top: 20px;
+}
+
+.padingtop1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.rad{
+    border-radius: 20px;
+}
+
+.padingto{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+
+.padtop{
+
+    padding-top: 50px;
+}
+
+.ppp{
+    margin-top: 20px;
+}
+.bo{
+    border-radius: 20px;
+}
+.pap{
+    margin-top: 15vh;
+}
+.pdwn{
+    padding-bottom: 50px;
+}
+
+.padbottom{
+    padding-bottom: 5vh;
+}

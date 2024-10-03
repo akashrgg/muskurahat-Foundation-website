@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+     <div class="container-fluid">
+        <div class="row text-center">
+            <img src="notes-1.jpg" alt="notes-4" class="img-fluid"/> 
+            <h1 class="p-3">
+                 wecome to internship
+            </h1>
+            <h1 class="red">
+              <strong id="username"></strong>
+            </h1>
+            
+
+             <div class="row d-flex justify-content-center">
+
+            
+             <a class="pa"
+             href= "https://api.whatsapp.com/send?text=Hey%2C%20check%20out%20this%20Internship%20opportunity%20https%3A%2F%2Fmuskurahat.org.in%2Finternship-application%3Futm_source">
+              <img src="design.jpg" alt="notes-4" class="img-fluid"/> 
+             </a> </div>
+
+             <img src="notes-2.jpg" alt="notes-4" class="img-fluid"/>  
+            
+        </div>
+
+
+     </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    
+    <script src="script.js"></script>
+
+     <!-- JavaScript to retrieve and display form data -->
+  <script>
+    // Retrieve form values from localStorage
+    document.getElementById('username').textContent = localStorage.getItem('name');
+    document.getElementById('useremail').textContent = localStorage.getItem('email');
+    document.getElementById('usermessage').textContent = localStorage.getItem('message');
+
+    // Clear localStorage after displaying the data (optional)
+    localStorage.removeItem('name');
+    localStorage.removeItem('email');
+    localStorage.removeItem('message');
+
+  </script>
+</body>
+
+</html>
