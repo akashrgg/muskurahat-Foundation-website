@@ -136,3 +136,35 @@ html {
 .padbottom{
     padding-bottom: 5vh;
 }
+
+.part-1{
+    animation: part1 1s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+@keyframes part1{
+    0%{
+        transform: translatex(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+.part-right{
+    animation: right 1s ease forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes right{
+    0%{
+        transform: translatex(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
