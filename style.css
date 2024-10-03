@@ -58,6 +58,27 @@
     background-size: cover; 
     
 }
+.plane{
+    background-image: url(planes.jpg); 
+    background-repeat: no-repeat;
+    animation: backgroundAnimation 10s ease infinite;
+    background-size: 50px;
+    background-position: center;
+   
+    
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: center;
+    }
+    50% {
+        background-position: right center;
+    }
+    100% {
+        background-position: center;
+    }
+}
 .pa{
     padding-top: 10vh;
 }
