@@ -88,8 +88,8 @@
                     const option = document.getElementById('options').value;
               
                     if (name && whatsapp && email && option) {
-                    alert(`Form Submitted!\n\nName: ${name}\nWhatsApp: ${whatsapp}\nEmail: ${email}\nMessage: ${message}\nOption: ${option}`);
-                     alert('Form submitted successfully! Redirecting...');
+                   // alert(`Form Submitted!\n\nName: ${name}\nWhatsApp: ${whatsapp}\nEmail: ${email}\nMessage: ${message}\nOption: ${option}`);
+                   
 
                      
                          localStorage.setItem('name', name);
@@ -98,7 +98,7 @@
 
 
 
-                     window.location.href = 'Application.html'; 
+                     window.location.href = 'https://github.com/akashrgg/muskurahat-Foundation-website/Application.html'; 
 
                      
 
